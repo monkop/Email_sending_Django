@@ -16,7 +16,7 @@ def home(request):
             message,
             email,
             
-            ['mayankmehra428@gmail.com'],
+            ['enter gmail'],
             fail_silently=False 
 )
         return render(request, 'home.html', {'name' : name})
